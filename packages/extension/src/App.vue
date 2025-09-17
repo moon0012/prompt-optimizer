@@ -839,7 +839,7 @@ hljs.registerLanguage('json', jsonLang)
   
   // 打开GitHub仓库
   const openGithubRepo = async () => {
-    const url = 'https://github.com/linshenkx/prompt-optimizer'
+    const url = 'https://github.com/moon0012/prompt-optimizer'
   
     // 检查是否在Electron环境中
     if (typeof window !== 'undefined' && (window as any).electronAPI) {

@@ -4,7 +4,7 @@
 
 [English](README_EN.md) | [中文](README.md)
 
-[![GitHub stars](https://img.shields.io/github/stars/linshenkx/prompt-optimizer)](https://github.com/linshenkx/prompt-optimizer/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/moon0012/prompt-optimizer)](https://github.com/moon0012/prompt-optimizer/stargazers)
 ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/cakkkhboolfnadechdlgdcnjammejlna?style=flat&label=Chrome%20Users&link=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2F%25E6%258F%2590%25E7%25A4%25BA%25E8%25AF%258D%25E4%25BC%2598%25E5%258C%2596%25E5%2599%25A8%2Fcakkkhboolfnadechdlgdcnjammejlna)
 
 <a href="https://trendshift.io/repositories/13813" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13813" alt="linshenkx%2Fprompt-optimizer | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -12,7 +12,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/linshen/prompt-optimizer)](https://hub.docker.com/r/linshen/prompt-optimizer)
 ![GitHub forks](https://img.shields.io/github/forks/linshenkx/prompt-optimizer?style=flat)
-[![Deploy with Vercel](https://img.shields.io/badge/Vercel-indigo?style=flat&logo=vercel)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flinshenkx%2Fprompt-optimizer)
+[![Deploy with Vercel](https://img.shields.io/badge/Vercel-indigo?style=flat&logo=vercel)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmoon0012%2Fprompt-optimizer)
 
 [在线体验](https://prompt.always200.com) | [快速开始](#快速开始) | [常见问题](#常见问题) | [Chrome插件](https://chromewebstore.google.com/detail/prompt-optimizer/cakkkhboolfnadechdlgdcnjammejlna) | [💖赞助支持](images/other/sponsor_wx.jpg)
 
@@ -71,7 +71,7 @@ Prompt Optimizer是一个强大的AI提示词优化工具，帮助你编写更�
 
 ### 2. Vercel部署
 方式1：一键部署到自己的Vercel(方便，但后续无法自动更新)：
-   [![部署到 Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flinshenkx%2Fprompt-optimizer)
+   [![部署到 Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmoon0012%2Fprompt-optimizer)
 
 方式2: Fork项目后在Vercel中导入（推荐，但需参考部署文档进行手动设置）：
    - 先Fork项目到自己的GitHub
@@ -85,7 +85,7 @@ Prompt Optimizer是一个强大的AI提示词优化工具，帮助你编写更�
 - [Vercel部署指南](docs/user/deployment/vercel.md)
 
 ### 3. 下载桌面应用
-从 [GitHub Releases](https://github.com/linshenkx/prompt-optimizer/releases) 下载最新版本。我们为各平台提供**安装程序**和**压缩包**两种格式。
+从 [GitHub Releases](https://github.com/moon0012/prompt-optimizer/releases) 下载最新版本。我们为各平台提供**安装程序**和**压缩包**两种格式。
 
 - **安装程序 (推荐)**: 如 `*.exe`, `*.dmg`, `*.AppImage` 等。**强烈推荐使用此方式，因为它支持自动更新**。
 - **压缩包**: 如 `*.zip`。解压即用，但无法自动更新。
@@ -126,7 +126,7 @@ docker run -d -p 8081:80 \
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/linshenkx/prompt-optimizer.git
+git clone https://github.com/moon0012/prompt-optimizer.git
 cd prompt-optimizer
 
 # 2. 可选：创建.env文件配置API密钥和访问认证
@@ -408,7 +408,7 @@ pnpm dev:fresh        # 完整重置并重新启动开发环境
 
 感谢所有为项目做出贡献的开发者！
 
-<a href="https://github.com/linshenkx/prompt-optimizer/graphs/contributors">
+<a href="https://github.com/moon0012/prompt-optimizer/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=linshenkx/prompt-optimizer" alt="贡献者" />
 </a>
 

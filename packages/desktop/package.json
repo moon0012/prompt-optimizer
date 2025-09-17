@@ -5,7 +5,7 @@
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/linshenkx/prompt-optimizer.git"
+    "url": "https://github.com/moon0012/prompt-optimizer.git"
   },
   "scripts": {
     "build": "pnpm run build:web && pnpm run package",
@@ -80,6 +80,6 @@
     "prompt",
     "optimizer"
   ],
-  "author": "https://github.com/linshenkx",
+  "author": "https://github.com/moon0012",
   "license": "MIT"
 }

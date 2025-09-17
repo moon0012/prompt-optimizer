@@ -4,7 +4,7 @@
 
 [English](README_EN.md) | [中文](README.md)
 
-[![GitHub stars](https://img.shields.io/github/stars/linshenkx/prompt-optimizer)](https://github.com/linshenkx/prompt-optimizer/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/moon0012/prompt-optimizer)](https://github.com/moon0012/prompt-optimizer/stargazers)
 ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/cakkkhboolfnadechdlgdcnjammejlna?style=flat&label=Chrome%20Users&link=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2F%25E6%258F%2590%25E7%25A4%25BA%25E8%25AF%258D%25E4%25BC%2598%25E5%258C%2596%25E5%2599%25A8%2Fcakkkhboolfnadechdlgdcnjammejlna)
 
 <a href="https://trendshift.io/repositories/13813" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13813" alt="linshenkx%2Fprompt-optimizer | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -12,7 +12,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/linshen/prompt-optimizer)](https://hub.docker.com/r/linshen/prompt-optimizer)
 ![GitHub forks](https://img.shields.io/github/forks/linshenkx/prompt-optimizer?style=flat)
-[![Deploy with Vercel](https://img.shields.io/badge/Vercel-indigo?style=flat&logo=vercel)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flinshenkx%2Fprompt-optimizer)
+[![Deploy with Vercel](https://img.shields.io/badge/Vercel-indigo?style=flat&logo=vercel)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmoon0012%2Fprompt-optimizer)
 
 [Live Demo](https://prompt.always200.com) | [Quick Start](#quick-start) | [FAQ](#faq) | [Chrome Extension](https://chromewebstore.google.com/detail/prompt-optimizer/cakkkhboolfnadechdlgdcnjammejlna)
 
@@ -71,7 +71,7 @@ This is a pure frontend project with all data stored locally in your browser and
 
 ### 2. Vercel Deployment
 Method 1: One-click deployment to your own Vercel:
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flinshenkx%2Fprompt-optimizer)
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmoon0012%2Fprompt-optimizer)
 
 Method 2: Fork the project and import to Vercel (Recommended):
    - First fork the project to your GitHub account
@@ -85,7 +85,7 @@ For more detailed deployment steps and important notes, please check:
 - [Vercel Deployment Guide](docs/user/deployment/vercel_en.md)
 
 ### 3. Download Desktop Application
-Download the latest version from [GitHub Releases](https://github.com/linshenkx/prompt-optimizer/releases). We provide both **installer** and **archive** formats for each platform.
+Download the latest version from [GitHub Releases](https://github.com/moon0012/prompt-optimizer/releases). We provide both **installer** and **archive** formats for each platform.
 
 - **Installer (Recommended)**: Such as `*.exe`, `*.dmg`, `*.AppImage`, etc. **Strongly recommended as it supports automatic updates**.
 - **Archive**: Such as `*.zip`. Extract and use, but cannot auto-update.
@@ -122,7 +122,7 @@ docker run -d -p 8081:80 \
 <summary>Click to view Docker Compose deployment steps</summary>
 ```bash
 # 1. Clone the repository
-git clone https://github.com/linshenkx/prompt-optimizer.git
+git clone https://github.com/moon0012/prompt-optimizer.git
 cd prompt-optimizer
 
 # 2. Optional: Create .env file for API keys and authentication
@@ -410,7 +410,7 @@ Tip: When developing with Cursor tool, it is recommended to do the following bef
 
 Thanks to all the developers who have contributed to this project!
 
-<a href="https://github.com/linshenkx/prompt-optimizer/graphs/contributors">
+<a href="https://github.com/moon0012/prompt-optimizer/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=linshenkx/prompt-optimizer" alt="Contributors" />
 </a>
 
@@ -426,4 +426,4 @@ If this project is helpful to you, please consider giving it a Star ⭐️
 
 - Submit an Issue
 - Create a Pull Request
-- Join the discussion group 
+- Join the discussion group
