@@ -378,6 +378,146 @@ export const naiveThemeConfigs: Record<string, ThemeConfig> = {
         arrowColorActive: '#ffffff',
       }
     }
+  },
+
+  apple: {
+    id: 'apple',
+    name: '苹果风格',
+    naiveTheme: lightTheme,
+    themeOverrides: {
+      common: {
+        // 苹果典型色系 - 蓝色主色调
+        primaryColor: '#007AFF',
+        primaryColorHover: '#0056CC',
+        primaryColorPressed: '#004499',
+        primaryColorSuppl: '#66A3FF',
+        // 苹果风格背景色 - 浅灰背景
+        bodyColor: '#F5F5F7',
+        cardColor: '#FFFFFF',
+        modalColor: '#FFFFFF',
+        popoverColor: '#FFFFFF',
+        tableColor: '#FFFFFF',
+        tableHeaderColor: '#F2F2F7',
+        inputColor: '#FFFFFF',
+        codeColor: '#F2F2F7',
+        tabColor: '#F2F2F7',
+        actionColor: '#F2F2F7',
+        // 苹果风格文本色 - 深灰文本
+        textColorBase: '#1D1D1F',
+        textColor1: '#1D1D1F',
+        textColor2: '#3A3A3C',
+        textColor3: '#8E8E93',
+        textColorDisabled: 'rgba(142, 142, 147, 0.5)',
+        placeholderColor: '#8E8E93',
+        placeholderColorDisabled: 'rgba(142, 142, 147, 0.3)',
+        iconColor: '#8E8E93',
+        iconColorHover: '#3A3A3C',
+        iconColorPressed: '#1D1D1F',
+        iconColorDisabled: 'rgba(142, 142, 147, 0.3)',
+        // 边框和分割线 - 浅灰边框
+        borderColor: '#E5E5EA',
+        dividerColor: '#E5E5EA',
+        // 滚动条
+        scrollbarColor: 'rgba(0, 122, 255, 0.3)',
+        scrollbarColorHover: 'rgba(0, 122, 255, 0.5)',
+        // 其他交互色
+        closeIconColor: '#8E8E93',
+        closeIconColorHover: '#3A3A3C',
+        closeIconColorPressed: '#1D1D1F',
+        clearColor: '#8E8E93',
+        clearColorHover: '#3A3A3C',
+        clearColorPressed: '#1D1D1F',
+        // 成功和错误颜色 - 苹果风格
+        successColor: '#34C759',
+        successColorHover: '#2CA44F',
+        successColorPressed: '#248845',
+        successColorSuppl: '#D1F7DC',
+        errorColor: '#FF3B30',
+        errorColorHover: '#D70015',
+        errorColorPressed: '#B50012',
+        errorColorSuppl: '#FFD1D1',
+      },
+      Button: {
+        // 主要按钮 - 苹果蓝色
+        textColorPrimary: '#FFFFFF',
+        textColorHoverPrimary: '#FFFFFF',
+        textColorPressedPrimary: '#FFFFFF',
+        textColorFocusPrimary: '#FFFFFF',
+        textColorDisabledPrimary: 'rgba(255, 255, 255, 0.5)',
+        colorPrimary: '#007AFF',
+        colorHoverPrimary: '#0056CC',
+        colorPressedPrimary: '#004499',
+        colorFocusPrimary: '#007AFF',
+        colorDisabledPrimary: 'rgba(0, 122, 255, 0.5)',
+        borderPrimary: '1px solid #007AFF',
+        borderHoverPrimary: '1px solid #0056CC',
+        borderPressedPrimary: '1px solid #004499',
+        borderFocusPrimary: '1px solid #007AFF',
+        borderDisabledPrimary: '1px solid rgba(0, 122, 255, 0.3)',
+        rippleColorPrimary: '#007AFF',
+        // 次要按钮 - 苹果灰色
+        textColor: '#1D1D1F',
+        textColorHover: '#1D1D1F',
+        textColorPressed: '#1D1D1F',
+        color: '#FFFFFF',
+        colorHover: '#F2F2F7',
+        colorPressed: '#E5E5EA',
+        border: '1px solid #E5E5EA',
+        borderHover: '1px solid #C7C7CC',
+        borderPressed: '1px solid #AEAEB2',
+      },
+      Input: {
+        color: '#FFFFFF',
+        colorDisabled: '#F5F5F7',
+        colorFocus: '#FFFFFF',
+        textColor: '#1D1D1F',
+        textColorDisabled: 'rgba(29, 29, 31, 0.5)',
+        placeholderColor: '#8E8E93',
+        placeholderColorDisabled: 'rgba(142, 142, 147, 0.3)',
+        iconColor: '#8E8E93',
+        iconColorHover: '#3A3A3C',
+        iconColorPressed: '#1D1D1F',
+        iconColorDisabled: 'rgba(142, 142, 147, 0.3)',
+        clearColor: '#8E8E93',
+        clearColorHover: '#3A3A3C',
+        clearColorPressed: '#1D1D1F',
+        border: '1px solid #E5E5EA',
+        borderDisabled: '1px solid #E5E5EA',
+        borderHover: '1px solid #C7C7CC',
+        borderFocus: '1px solid #007AFF',
+        boxShadowFocus: '0 0 0 2px rgba(0, 122, 255, 0.2)',
+        loadingColor: '#007AFF',
+        // 前缀后缀
+        suffixTextColor: '#8E8E93',
+        prefixTextColor: '#8E8E93',
+      },
+      Card: {
+        color: '#FFFFFF',
+        colorModal: '#FFFFFF',
+        colorTarget: '#FFFFFF',
+        textColor: '#1D1D1F',
+        titleTextColor: '#1D1D1F',
+        borderColor: '#E5E5EA',
+        actionColor: '#F2F2F7',
+        closeIconColor: '#8E8E93',
+        closeIconColorHover: '#3A3A3C',
+        closeIconColorPressed: '#1D1D1F',
+      },
+      Menu: {
+        color: '#FFFFFF',
+        itemColorHover: 'rgba(0, 122, 255, 0.1)',
+        itemColorActive: 'rgba(0, 122, 255, 0.2)',
+        itemTextColor: '#1D1D1F',
+        itemTextColorHover: '#007AFF',
+        itemTextColorActive: '#007AFF',
+        itemIconColor: '#8E8E93',
+        itemIconColorHover: '#007AFF',
+        itemIconColorActive: '#007AFF',
+        arrowColor: '#8E8E93',
+        arrowColorHover: '#007AFF',
+        arrowColorActive: '#007AFF',
+      }
+    }
   }
 }
 
@@ -437,10 +577,9 @@ export const initializeNaiveTheme = (): void => {
     console.warn('Failed to load theme preference:', error)
   }
   
-  // 如果没有保存的主题，使用系统偏好
+  // 如果没有保存的主题，默认使用苹果风格主题
   if (!savedTheme) {
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-    savedTheme = prefersDark ? 'dark' : 'light'
+    savedTheme = 'apple'
   }
   
   // 应用主题

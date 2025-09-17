@@ -8,6 +8,10 @@
         <p>{{ t('toast.error.appInitFailed') }}</p>
       </div>
       <template v-if="isReady">
+        <!-- SEO 优化：添加H1和H2标签 -->
+        <h1 class="sr-only">AI Prompt Optimizer - 专业的AI提示词优化工具</h1>
+        <h2 class="sr-only">智能提示词优化、多模型测试、变量管理、模板系统</h2>
+        
         <MainLayoutUI>
           <!-- Title Slot -->
           <template #title>
