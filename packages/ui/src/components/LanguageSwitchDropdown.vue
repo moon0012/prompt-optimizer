@@ -107,8 +107,22 @@ const handleLanguageSelect = async (key: string) => {
   const selectedLanguage = availableLanguages.find(lang => lang.key === key)
   if (!selectedLanguage) return
 
-  // 切换语言
+  // 切换UI语言
   i18n.global.locale.value = selectedLanguage.locale
+  
+  // 同步切换模板语言
+  try {
+    const servicesValue = services.value
+    if (servicesValue?.templateManager) {
+      // 将UI语言映射到模板语言
+      const templateLanguage = selectedLanguage.locale === 'zh-CN' ? 'zh-CN' : 'en-US'
+      await servicesValue.templateManager.changeBuiltinTemplateLanguage(templateLanguage)
+      console.log(`[LanguageSwitchDropdown] Template language synced to: ${templateLanguage}`)
+    }
+  } catch (error) {
+    console.error('[LanguageSwitchDropdown] Failed to sync template language:', error)
+    // 继续执行，UI语言切换仍然生效
+  }
   
   // 保存用户偏好
   try {

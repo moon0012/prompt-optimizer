@@ -598,6 +598,7 @@
   theme: {
     title: '主题设置',
     light: '日间',
+    apple: '苹果',
     dark: '夜间',
     blue: '蓝色',
     green: '绿色',
